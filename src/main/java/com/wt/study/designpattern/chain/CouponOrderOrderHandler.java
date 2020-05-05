@@ -1,5 +1,8 @@
 package com.wt.study.designpattern.chain;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CouponOrderOrderHandler extends AbstractOrderHandler {
     @Override
     protected void doHandle(OrderHandlerContext context, OrderHandlerChain chain) {

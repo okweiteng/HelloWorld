@@ -43,7 +43,7 @@ public class Pizza {
         this.status = PizzaStatusEnum.DELIVERED;
     }
 
-    private Boolean isDeliverable() {
+    public Boolean isDeliverable() {
         return this.status.isReady();
     }
 
