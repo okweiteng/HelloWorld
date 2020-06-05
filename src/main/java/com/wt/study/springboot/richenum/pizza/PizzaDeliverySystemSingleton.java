@@ -1,4 +1,4 @@
-package com.wt.study.util.enumstudy;
+package com.wt.study.springboot.richenum.pizza;
 
 public enum PizzaDeliverySystemSingleton {
     /**
