@@ -1,6 +1,6 @@
 package com.wt.study.springboot.validation.application;
 
-import com.wt.springboot.common.annotation.Region;
+import com.wt.study.springboot.validation.application.config.annotation.Region;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
