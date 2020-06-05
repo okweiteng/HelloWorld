@@ -13,6 +13,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 public class OrderService {
 
+    // https://www.jianshu.com/c/fcf45a85f359?tdsourcetag=s_pcqq_aiomsg
+
     @Autowired
     private StateMachine<OrderStatus, OrderStatusChangeEvent> orderStateMachine;
 
